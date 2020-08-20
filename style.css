@@ -1,0 +1,120 @@
+.container {
+  width: 40%;
+  margin-left: 25%;
+  border: 1px solid rgb(194, 192, 192);
+  background: rgb(184, 219, 209);
+  text-align: center;
+  border-radius: 10px;
+}
+.todo-form {
+  width: 80%;
+  margin-left: 10%;
+}
+.todo-text {
+  background: rgb(167, 196, 100);
+  color: rgb(10, 10, 10);
+  width: 70%;
+  padding: 6px 1px 6px 15px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.add-btn {
+  width: 20%;
+  background: rgb(12, 12, 12);
+  color: rgb(241, 238, 238);
+  padding: 6px 1px 6px 6px;
+  border-radius: 20px;
+  outline: none;
+}
+.todo-items {
+  width: 80%;
+  margin-left: 10%;
+  list-style: none;
+  padding: 5px;
+  border-top: 1px solid rgb(231, 230, 230);
+  border-bottom: 1px solid rgb(231, 230, 230);
+  text-align: left;
+}
+.item {
+  width: 100%;
+  list-style: none;
+  text-align: left;
+  display: table;
+  margin-top: 5px;
+  background-color: rgb(231, 235, 220);
+  box-shadow: 1px 1px 3px 3px rgb(201, 200, 200);
+}
+.checkbox {
+  transition: all 0.15s ease-out 0s;
+  background: white;
+  cursor: pointer;
+  outline: none;
+  width: 10%;
+  float: left;
+  margin-top: 20px;
+}
+
+.todo-content {
+  color: rgb(163, 73, 13);
+  font-weight: bold;
+  font-size: 1em;
+  width: 70%;
+  height: inherit;
+  float: left;
+}
+.delete-button {
+  background-image: url("https://image.flaticon.com/icons/svg/1214/1214428.svg");
+  background-size: cover;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  align-content: center;
+  margin-left: 0;
+  float: right;
+  margin-top: 5px;
+}
+.todo-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40px;
+  height: inherit;
+  margin-top: 10%;
+  margin-bottom: auto;
+}
+
+.tasks {
+  display: flex;
+}
+.complete {
+  width: 50%;
+  margin-left: 20px;
+  align-self: flex-start;
+}
+.uncomplete {
+  margin-left: 20px;
+}
+.checked p {
+  opacity: 0.4;
+}
+.clear-header {
+  display: flex;
+}
+.clear {
+  width: fit-content;
+  cursor: pointer;
+  margin-left: 40%;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.clear-completed {
+  width: fit-content;
+  font-size: 0.8em;
+  margin-left: 90px;
+  cursor: pointer;
+  font-weight: bold;
+}
